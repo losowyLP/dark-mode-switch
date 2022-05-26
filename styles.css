@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body.dark {
+	background-color: black;
+	color: seashell;
+}
+
+body {
+	background-color: seashell;
+	color: black;
+
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5%;
+	text-align: center;
+	transition: all 200ms;
+}
+
+button.dark {
+	background-color: #222;
+	color: white;
+}
+
+button {
+	background-color: white;
+	color: black;
+
+	margin: 10%;
+	cursor: pointer;
+	border: 0px;
+	padding: 8px 16px 8px 16px;
+	border-radius: 8px;
+	font-size: 16px;
+	transition: all 500ms;
+}
+
+button.dark:hover {
+	background-color: #333;
+}
+
+button:hover {
+	background-color: whitesmoke;
+	
+	transform: scale(120%);
+}
